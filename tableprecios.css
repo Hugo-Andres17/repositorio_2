@@ -26,7 +26,15 @@ table
 {
     width: 50%;
     height: 40%;
+    text-align: center;
+    margin-left: 22%;
 }
+
+table th
+{
+    background-color: aquamarine;
+}
+
 
 footer
 {
