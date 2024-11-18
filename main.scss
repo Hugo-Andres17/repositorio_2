@@ -1,0 +1,12 @@
+.gridcontainer
+{
+    display: grid;
+    grid-template-areas: 
+    'auto auto auto'
+    'auto auto auto';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 25px;
+    background-color: gray;
+    padding: 20px;
+}
