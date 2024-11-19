@@ -24,7 +24,28 @@ nav
     background-color: red;
     height: 15%;
     overflow: hidden;
+    animation-name: cambioColorBarra;
+    animation-duration: 4s;
     
+    
+}
+
+@keyframes cambioColorBarra
+{
+    0%,100%
+    {
+        background-color: red;
+    }
+     
+    25%
+    {
+        background-color: $color-principal;
+    }
+
+    50%
+    {
+        background-color: $color-secundario;
+    }
 }
 
 nav ul

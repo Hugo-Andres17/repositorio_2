@@ -17,8 +17,21 @@ nav {
   background-color: red;
   height: 15%;
   overflow: hidden;
+  animation-name: cambioColorBarra;
+  animation-duration: 4s;
 }
 
+@keyframes cambioColorBarra {
+  0%, 100% {
+    background-color: red;
+  }
+  25% {
+    background-color: aqua;
+  }
+  50% {
+    background-color: gray;
+  }
+}
 nav ul {
   display: flex;
   flex-wrap: wrap;
