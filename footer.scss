@@ -1,4 +1,20 @@
 footer
 {
     text-align: center;
+
+}
+
+h4
+{
+    background-color: gray;
+    transition-property: width height background-color;
+    transition-duration: 1s;
+}
+
+
+h4:hover
+{
+    
+    background-color: aqua;    
+
 }

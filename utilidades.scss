@@ -1,1 +1,13 @@
-$color: gray;
+$color-principal: aqua;
+$color-secundario: gray;
+
+@mixin flexbox_personalizado()
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: flex-start;
+    flex: 1;
+}
+

@@ -1,14 +1,5 @@
-@import 'utilidades.scss';
-
-body
-{
-   padding: 0;
-   margin: 0;
-   background-color: gray;
-}
-
-@import 'header.scss';
-@import 'main.scss';
-@import 'footer.scss';
-@import 'mediaqueries.scss';
-@import 'utilidades.scss';
+@import 'utilidades';
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'mediaqueries';
